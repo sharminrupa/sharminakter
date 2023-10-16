@@ -1,0 +1,232 @@
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) { 
+    
+   
+    
+}
+/* Large device (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) 
+ { 
+     .prof-m{
+	margin-right: 5%;
+	border: 8px solid skyblue;
+	float: right;
+	border-radius: 100%;
+	z-index: 1;
+	position: relative;
+	margin-top: -200px;
+	height: 350px;
+	width: 34%;
+}
+
+  .h-tags{
+	margin-top: -275px;
+	margin-left: 5px;
+	font-size: 50px;
+	color: lightgreen;
+}
+.about-section{
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+	 .recent h2{
+		font-size: 22px;
+	}
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	
+    .prof-m{
+	margin-right: 5%;
+	border: 8px solid skyblue;
+	float: right;
+	border-radius: 100%;
+	z-index: 1;
+	position: relative;
+	margin-top: -140px;
+	height: 260px;
+	width: 31%;
+}
+	.h-tags{
+	margin-top: -230px;
+	margin-left: 5px;
+	font-size: 45px;
+	color: lightgreen;
+}
+.about-section{
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+	.recent h2{
+		font-size: 18px;
+	}
+	
+    }
+    
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.prof-m1{
+		height: 420px;
+		width: 100%
+	}
+	.prof-m{
+	margin-right: 5%;
+	border: 8px solid skyblue;
+	float: right;
+	border-radius: 100%;
+	z-index: 1;
+	position: relative;
+	margin-top: -100px;
+	height: 200px;
+		width: 32%;
+	
+}
+
+	.about-section{
+	margin-top: 180px;
+}
+	
+.h-tags{
+	margin-top: -280px;
+	margin-bottom: 150px;
+	margin-left: 10px;
+	font-size: 45px;
+	color: lightgreen;
+}
+ 
+        input[type=text]{
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-right: 18px;
+        }
+         input[type=number]{
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-right: 18px;
+        }
+        textarea{
+            width: 97%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+        
+        .sub-btn{
+            border-radius: 0px;
+            width: 250px;
+            font-weight: 700;
+			margin-bottom: 20px;
+        }
+        .sub-btn:hover{
+            background-color: white;
+            border: 1px solid orange;
+            font-weight: 700;
+        }
+    .recent h2{
+		font-size: 14px;
+	}
+	
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media  (max-width: 575.98px)
+{
+	.prof-m1{
+		height: 350px;
+	}
+	
+    .prof-m{
+	margin-right: 5%;
+	border: 8px solid skyblue;
+	float: right;
+	border-radius: 100%;
+	z-index: 1;
+	position: relative;
+	margin-top: -80px;
+	height: 150px;
+	width: 30%;
+}
+
+	
+	
+    .h-tags{
+	margin-top: -200px;
+	margin-bottom: 250px;
+	margin-left: 5px;
+	font-size: 30px;
+	color: lightgreen;
+}
+.about-section{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.about{
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+	.skill{
+		margin-top: 20px;
+	}
+.service{
+	margin-bottom: 50px;
+	font-size: 20px
+}
+
+.contact{
+	margin-top: 50px;
+	font-size: 20px
+}
+	.recent h2{
+		font-size: 14px;
+	}
+	
+/*	----contact--*/
+	 
+        input[type=text]{
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-right: 18px;
+        }
+	 input[type=number]{
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-right: 18px;
+        }
+        
+        textarea{
+            width: 97%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+        
+        .sub-btn{
+            border-radius: 0px;
+            width: 250px;
+            font-weight: 700;
+			margin-bottom: 20px;
+        }
+        .sub-btn:hover{
+            background-color: white;
+            border: 1px solid orange;
+            font-weight: 700;
+        }
+  }
